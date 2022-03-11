@@ -1,3 +1,11 @@
+---
+layout: default
+title: Home
+nav_order: 10
+description: "A site with details about all aspects of importing an SFM database into FLEx."
+permalink: /
+---
+
 ## Welcome to GitHub Pages
 
 🚀 🐼
