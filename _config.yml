@@ -1,4 +1,5 @@
-title: "SFM to FLEx Import Best Practices (Sandbox)"
+title: DLS Practice (Sandbox)
+email: wes_peacock@sil.org
 remote_theme: just-the-docs/just-the-docs
 # color_scheme: "dark"
-search_enabled: false
+search_enabled: true
