@@ -11,3 +11,5 @@ theme: just-the-docs
 
 plugins:
   - jekyll-feed
+
+exclude: ["stagefiles"]
