@@ -13,3 +13,6 @@ plugins:
   - jekyll-feed
 
 exclude: ["stagefiles"]
+
+# To run a local instance of jekyll
+#    bundle exec jekyll serve --config .\_config-local.yml
