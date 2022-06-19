@@ -33,8 +33,20 @@ To initialize a new jekyll instance in CMD or Powershell.
  ...> cd Website-reponame
  ...\Website-reponame> git init
  ```
+But if you have Git for Windows installed you probably want to do a git clone of the repository from github:
+ * Find the repository and select the green button labelled Code
+ ![green button](assets/installation-log-33015840.png)
+ and choose the clone option you want (If you choose the SSH option you have to have SSH set up on your computer with authorization for your github account).
 
-But you probably want to do a git clone from github
+* Open either Powershell or CMD
+
+``` bat
+cd ... # to above where you want to put the website repo.
+# if you chose https
+...> git clone https://github.com/Someone/SomeRepo.git
+# OR if you chose SSH:
+...> git clone git@github.com:Someone/SomeRepo.git
+```
 
 ### Starting your local Jekyll server
 
@@ -43,9 +55,6 @@ But you probably want to do a git clone from github
 ### Create the github remote repo & upload
 
 Create new repo from your repo manager menu on github
-
-[push your local repo to gihub]: https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line
-
 
 ``` bash
 git remote add origin git@github.com:WesPeacock/SFM2FLEx-Best-Practices.git
